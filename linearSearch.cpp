@@ -21,10 +21,19 @@ int main()
 cout<<"enter the size of array less than 10"<<endl;
 cin>>n;
 
-cout<<"rnter the nummber you want to search"<<endl;
+  for(int i = 0; i < n; i++)
+  {
+    cin>>a[i];
+  }
+
+cout<<"enter the nummber you want to search"<<endl;
 cin>>num;
 
+cout<<"check"<<endl;
+cout<<findArray(a,n,num);
 
 
 
+
+return 0;
 }
